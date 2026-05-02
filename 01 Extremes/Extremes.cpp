@@ -4,9 +4,9 @@ void getExtremes(float& min,float& max, float a[], int n);
 // function declaration and passing variables by reference (&)
 int main() {
     float max, min;                                                 
-    // variable intialization
+    // variable initialization
     float arr[] = {67, -15, 0, 1, 10};                              
-    // array defination
+    // array definition
     int size = sizeof(arr)/sizeof(arr[0]);                          
     // calculate the size of array
     cout << "Array is : ";

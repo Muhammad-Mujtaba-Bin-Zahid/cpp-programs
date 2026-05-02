@@ -5,7 +5,7 @@ double stdev(double x[], int n);
 // function declaration
 int main() {
     double arr[] = {90000, 67.677, 4567, 420, 23000};           
-    // array intialization
+    // array initialization
     int size = sizeof(arr)/sizeof(arr[0]);                      
     // calculate the size of array
     cout << "The Standard Deviation is: " << stdev(arr, size);  
@@ -13,7 +13,7 @@ int main() {
     return 0;
 }
 double stdev(double x[], int n) {                               
-    // function defination
+    // function definition
     double sum = 0, avg = 0, dev, div, sqsum = 0, diff = 0;     
     // intializing required variables for calculation
     for (int i = 0; i < n; i++) {                               

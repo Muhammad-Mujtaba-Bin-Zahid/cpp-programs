@@ -9,11 +9,11 @@ void getMode(int& mode, int& occurance, int a[], int n);
 // passing variables by reference (&)
 int main() {
     int arr[] ={34, 56, 34, 23, 13, 45, 34, 78, 55, 99};
-    // array intialization
+    // array initialization
     int size = sizeof(arr)/sizeof(arr[0]);
     // calculating size of array
     int mode = 0, occurance = 0;
-    // intialiizing required variables
+    // initialiizing required variables
     cout << "Array is : ";
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
